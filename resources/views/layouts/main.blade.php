@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-    <title>@yield('title')</title>
+    <title>@yield('title','Movies')</title>
 
 </head>
 <body>
@@ -21,5 +21,6 @@
 
 
     @yield('script-adder')
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
